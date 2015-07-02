@@ -8,6 +8,7 @@ class ProjectsController < ApplicationController
     @coding_skill = CodingSkill.find(params[:coding_skill_id])
     @project = @coding_skill.projects.new(project_params)
     if @project.save
+      flash[:notice] = "Project added, broski"
       redirect_to coding_skill_path(@project.coding_skill)
     else
       render :new
@@ -23,7 +24,7 @@ class ProjectsController < ApplicationController
     @coding_skill = CodingSkill.find(params[:coding_skill_id])
     @project = @coding_skill.projects.find(params[:id])
     if @project.update(project_params)
-      flash[:notice] = "Project added, broski"
+      flash[:notice] = "Project updated, broski"
       redirect_to coding_skill_path(@coding_skill.id)
     else
       render :edit
@@ -36,7 +37,7 @@ class ProjectsController < ApplicationController
     @project.destroy
     redirect_to coding_skill_path(@coding_skill)
   end
-    
+
 
   private
     def project_params
