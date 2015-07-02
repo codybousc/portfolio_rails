@@ -1,28 +1,59 @@
-== README
+## Synopsis
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project sets out to create a portfolio site. The following Ruby Gems were used.
 
-Things you may want to cover:
+gem rails
 
-* Ruby version
+gem pg
 
-* System dependencies
+gem bootstrap-sass', '~> 3.3.5
 
-* Configuration
+gem sass-rails
 
-* Database creation
+gem uglifier
 
-* Database initialization
+gem coffee-rails
 
-* How to run the test suite
+gem jquery-rails
 
-* Services (job queues, cache servers, search engines, etc.)
+gem turbolinks
 
-* Deployment instructions
+gem sqlite3
 
-* ...
+gem byebug
 
+gem web-console
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+gem spring
+
+gem quiet_assets
+
+gem rspec-rails
+
+gem launchy
+
+gem capybara
+
+## Motivation
+
+This is a WIP portfolio site
+
+## Installation To install application: Step 1: clone onto desktop from: https://github.com/codybousc/portfolio_rails.git
+
+Step 2: in console type bundle install.
+
+step 3: in console type rake db:create
+
+in console type rake db:migrate
+
+## Tests Type rake db:test:prepare in console Run Rspec in console
+
+## Contributors
+
+Cody Bouscaren
+
+## License
+
+The MIT License (MIT)
+
+Copyright © [2015]
