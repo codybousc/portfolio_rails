@@ -5,6 +5,7 @@ class ProjectsController < ApplicationController
   end
 
   def create
+  
     @coding_skill = CodingSkill.find(params[:coding_skill_id])
     @project = @coding_skill.projects.new(project_params)
     if @project.save

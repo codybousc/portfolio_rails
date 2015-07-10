@@ -14,8 +14,10 @@
  *= require_self
  */
 
+
  body {
 
   background-image: url('http://www.ctvnews.ca/polopoly_fs/1.1361818.1373492172!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg'); background-repeat: no-repeat;
   background-size: cover;
+  background-color: black; 
 }

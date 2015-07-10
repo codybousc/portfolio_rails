@@ -26,6 +26,12 @@ gem 'rails_bootstrap_navbar'
 
 gem 'owlcarousel-rails'
 
+gem 'devise'
+
+gem 'cancancan', '~> 1.10'
+
+gem 'simplecov', require: false
+
 
 
 group :development do
