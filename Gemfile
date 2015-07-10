@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.3'
 
 
 gem 'rails'
@@ -34,6 +35,8 @@ gem 'simplecov', require: false
 
 
 
+
+
 group :development do
 
   gem 'byebug'
@@ -44,6 +47,11 @@ group :development do
 
   gem 'quiet_assets'
 
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 
