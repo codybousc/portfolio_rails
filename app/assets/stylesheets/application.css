@@ -30,3 +30,11 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+h1 {
+  color: white;
+}
+
+ul li {
+  color: white;
+}
