@@ -52,6 +52,10 @@ in console type rake db:migrate
 
 Cody Bouscaren
 
+## Heroku Link:
+
+https://epicocoportfolio.herokuapp.com/
+
 ## License
 
 The MIT License (MIT)
