@@ -1,0 +1,52 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+personal_site {
+  padding-top: 55px;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+footer a {
+  color: #555;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer a:hover {
+  color: #222;
+}
+footer small {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+#nav-special {
+  color: white;
+  font-family: Ubuntu;
+  font-size: 200%;
+  padding-top: 20px;
+  &:hover {
+    color: #D9853B;
+}
+  }
+
+  .navbar-transparent {
+  background-color: #74AFAD;
+  display: block;
+  border-radius: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(116, 175, 173, .6);
+}
