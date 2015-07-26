@@ -20,8 +20,12 @@ pre {
 
 a {
   color: #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
   &:visited {
-    color: #666;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   &:hover {
     color: #fff;

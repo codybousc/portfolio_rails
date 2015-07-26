@@ -9,6 +9,8 @@ gem 'pg'
 
 gem 'sass-rails'
 
+gem 'bootstrap-sass'
+
 gem 'uglifier'
 
 gem 'coffee-rails'
