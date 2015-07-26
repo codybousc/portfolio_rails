@@ -24,9 +24,10 @@
 
 
 html {
-  background: url('http://www.ctvnews.ca/polopoly_fs/1.1361818.1373492172!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg') no-repeat center center fixed;
+  background: url('https://download.unsplash.com/photo-1434394673726-e8232a5903b4') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }

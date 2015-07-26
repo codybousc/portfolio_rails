@@ -1,0 +1,20 @@
+<div id="best_of">
+  <h1>Recommendations for Cody Bouscaren</h1>
+
+  <p>Add a recommendation below!</p>
+
+  <% if current_user %>
+    <%= link_to "Add a recommendation", new_recommendation_path, id: "new_recommendation_link", class: "btn btn-success", remote: true %>
+  <% else %>
+    <p><%= link_to "Sign in to add a recommendation", new_user_session_path %></p>
+  <% end %>
+
+  <h3>Recommendations</h3>
+  <div id="recommendations">
+    <% if @recommendations.any? %>
+      <%= render(@recommendations) %>
+    <% end %>
+  </div>
+
+
+  <%= link_to "Close", root_path, id: "hide_best_of", class: "btn btn-success" %>

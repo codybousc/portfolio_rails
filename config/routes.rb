@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :posts
   resources :coding_skills do
     resources :projects
-
   end
+
+  resources :recommendations
 end
