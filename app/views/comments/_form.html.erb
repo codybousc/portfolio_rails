@@ -1,0 +1,6 @@
+<div id="comments-form">
+  <%= bootstrap_form_for [@post, @comment], remote: true do |f| %>
+    <%= f.text_area :comment_content, label: "Add your comment" %>
+    <%= f.submit "Add comment", class: "btn btn-success" %>
+  <% end %>
+</div>

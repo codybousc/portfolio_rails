@@ -35,6 +35,8 @@ gem 'cancancan', '~> 1.10'
 
 gem 'simplecov', require: false
 
+gem 'paperclip'
+
 
 
 
