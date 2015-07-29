@@ -23,17 +23,10 @@
   border-top: 1px solid white;
   margin-left: 25px;
   margin-right: 25px;
+  font-family: "proxima-nova";
+  font-size: 18px;   
 }
 
-
-html {
-  background: url('https://download.unsplash.com/photo-1434394673726-e8232a5903b4') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
 
 h1 {
   color: white;
