@@ -154,7 +154,7 @@ margin-left: 12%;
 }
 
 
-#blog-title {
+.blog-title {
   text-align: center;
 }
 
@@ -162,11 +162,30 @@ margin-left: 12%;
   background-image: url("blog_photo.jpeg");
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 2650px;
+  height: 1000px;
   width: 100%;
   left: 0;
   position: static;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  display: block;
 
+}
+
+#blog_photo img {
+  display: block;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  float: left;
+  border: 4px solid #333;
+
+}
+
+#blog_content {
+  float: right;
+}
+
+#blog_pic {
+  height: 150px;
+  border-radius: 50%;
 }

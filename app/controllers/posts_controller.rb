@@ -9,7 +9,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    if current_user && current_user.admin?
+    if current_user.admin
       @post = Post.new
     else
       flash[:notice] = "You do not have admin privileges"
@@ -29,7 +29,7 @@ class PostsController < ApplicationController
   end
 
   def edit
-    if current_user && current_user.admin?
+    if current_user.admin
       @post = Post.find(params[:id])
     else
       redirect_to new_user_session_path

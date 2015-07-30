@@ -1,1 +1,1 @@
-$('#new_comment_link').hide().after('<%= j render ("form") %>');
+$('#blog_<%= @post.id %> .show-comments').html('<%= j render ("form") %>');
