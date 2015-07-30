@@ -9,10 +9,11 @@ class PostsController < ApplicationController
   end
 
   def new
-    if current_user 
+    if current_user && current_user.admin?
       @post = Post.new
     else
-      redirect_to new_user_session_path
+      flash[:notice] = "You do not have admin privileges"
+      redirect_to coding_skills_path
     end
   end
 
