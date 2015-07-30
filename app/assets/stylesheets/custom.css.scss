@@ -53,13 +53,6 @@ footer ul {
 margin-left: 12%;
 }
 
-#photo_cover {
-
-  height: 200px;
-  width: 50px;
-  background-color: red;
-  position: absolute;
-}
 
 #main-photo {
   background-image: url("cropped_home_page_three.jpeg");
@@ -143,14 +136,37 @@ margin-left: 12%;
 }
 
 .calories-image{
-  height:200px;
+  height:300px;
+  width: 450px;
+  border-radius: 5%;
+
 }
 
 .thumbnail-image{
-  height:200px;
+  height:300px;
+  width: 450px;
+  border-radius: 5%;
 }
 
 .first-row{
   margin-bottom:10px;
   margin-top: 150px;
+}
+
+
+#blog-title {
+  text-align: center;
+}
+
+#blog_photo {
+  background-image: url("blog_photo.jpeg");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 2650px;
+  width: 100%;
+  left: 0;
+  position: static;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
 }

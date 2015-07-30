@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :admins
   root :to => "coding_skills#index"
 
   devise_for :users
